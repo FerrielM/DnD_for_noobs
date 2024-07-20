@@ -1,0 +1,690 @@
+{
+  "entries": [
+    {
+      "Category": "Race",
+      "Name": "Human",
+      "Image": "https://www.dndbeyond.com/avatars/thumbnails/6/258/420/618/636271801914013762.png",
+      "Description": [
+        "Humans are the most adaptable and ambitious of the common races, thriving in a wide range of environments and societies.",
+        "They possess a remarkable diversity in appearance, culture, and belief systems, allowing them to blend into almost any community or profession.",
+        "Their drive for innovation and exploration makes them influential across many realms, often serving as the catalysts for change and progress."
+      ],
+      "Mechanics": [
+        "Ability Score Increase: All ability scores increase by 1.",
+        "Size: Medium",
+        "Speed: 30 feet",
+        "Versatile: Humans gain proficiency in two skills of their choice.",
+        "Languages: They can speak, read, and write Common and one extra language of their choice."
+      ]
+    },
+    {
+      "Category": "Race",
+      "Name": "Elf",
+      "Image": "https://www.dndbeyond.com/avatars/thumbnails/7/639/420/618/636287075350739045.png",
+      "Description": [
+        "Elves are a magical and graceful race with an innate connection to nature and the arcane.",
+        "They are renowned for their longevity, often living for centuries, which grants them a deep perspective on the world.",
+        "Elves are known for their appreciation of beauty and art, their skill in magic and combat, and their elegant, otherworldly demeanor."
+      ],
+      "Mechanics": [
+        "Ability Score Increase: +2 Dexterity.",
+        "Size: Medium",
+        "Speed: 30 feet",
+        "Darkvision: Elves can see in dim light within 60 feet as if it were bright light and in darkness as if it were dim light.",
+        "Keen Senses: They have proficiency in the Perception skill.",
+        "Fey Ancestry: They have advantage on saving throws against being charmed and magic can't put them to sleep.",
+        "Trance: Elves don't need to sleep. Instead, they meditate deeply for 4 hours a day."
+      ]
+    },
+    {
+      "Category": "Race",
+      "Name": "Dwarf",
+      "Image": "https://www.dndbeyond.com/avatars/thumbnails/6/254/420/618/636271781394265550.png",
+      "Description": [
+        "Dwarves are renowned for their craftsmanship, particularly in stonework and metalwork, and their robust constitution.",
+        "Their societies are deeply rooted in tradition, honor, and clan loyalty, often living in large, fortress-like communities beneath the mountains.",
+        "Dwarves are known for their resilience in battle, their strong sense of duty, and their steadfastness in the face of adversity."
+      ],
+      "Mechanics": [
+        "Ability Score Increase: +2 Constitution.",
+        "Size: Medium",
+        "Speed: 25 feet",
+        "Darkvision: Dwarves can see in dim light within 60 feet as if it were bright light and in darkness as if it were dim light.",
+        "Dwarven Resilience: They have advantage on saving throws against poison and resistance against poison damage.",
+        "Dwarven Combat Training: They are proficient with the battleaxe, handaxe, light hammer, and warhammer.",
+        "Tool Proficiency: They are proficient with the artisan's tools of their choice.",
+        "Stonecunning: They have advantage on Intelligence (History) checks related to the origin of stonework."
+      ]
+    },
+    {
+      "Category": "Race",
+      "Name": "Halfling",
+      "Image": "https://www.dndbeyond.com/avatars/thumbnails/6/256/420/618/636271789409776659.png",
+      "Description": [
+        "Halflings are small, cheerful individuals who enjoy a simple, pastoral lifestyle filled with comfort, good food, and close-knit communities.",
+        "They are known for their resourcefulness and ability to avoid danger, using their small size and nimbleness to navigate through challenging situations.",
+        "Halflings are often underestimated due to their size but are resilient and capable in both personal endeavors and adventuring."
+      ],
+      "Mechanics": [
+        "Ability Score Increase: +2 Dexterity.",
+        "Size: Small",
+        "Speed: 25 feet",
+        "Lucky: When rolling a 1 on a d20 roll, they can reroll the die and must use the new roll.",
+        "Brave: They have advantage on saving throws against being frightened.",
+        "Halfling Nimbleness: They can move through the space of any creature that is of a size larger than theirs."
+      ]
+    },
+    {
+      "Category": "Race",
+      "Name": "Gnome",
+      "Image": "https://www.dndbeyond.com/avatars/thumbnails/6/334/420/618/636272671553055253.png",
+      "Description": [
+        "Gnomes are small, inventive beings known for their creativity and intellectual curiosity.",
+        "Their affinity for magic and technology is matched by their whimsical and playful nature, leading to both remarkable inventions and occasionally chaotic results.",
+        "Gnomes' keen minds and persistent curiosity drive them to explore new knowledge and perfect their craft, making them adept at both scholarly pursuits and practical applications."
+      ],
+      "Mechanics": [
+        "Ability Score Increase: +2 Intelligence.",
+        "Size: Small",
+        "Speed: 25 feet",
+        "Darkvision: Gnomes can see in dim light within 60 feet as if it were bright light and in darkness as if it were dim light.",
+        "Gnome Cunning: They have advantage on Intelligence, Wisdom, and Charisma saving throws against magic.",
+        "Artificer’s Lore: They have proficiency in the History skill related to magical items, alchemical objects, or technological devices."
+      ]
+    },
+    {
+      "Category": "Race",
+      "Name": "Half-Elf",
+      "Image": "https://www.dndbeyond.com/avatars/thumbnails/6/481/420/618/636274618102950794.png",
+      "Description": [
+        "Half-elves are a unique blend of human and elven heritage, embodying the strengths and qualities of both races.",
+        "They often bridge the gap between human and elven societies, finding themselves at ease in diverse environments while struggling to find a place in either world.",
+        "With their versatile nature and blend of traits, half-elves often excel in various fields, including diplomacy, magic, and adventuring."
+      ],
+      "Mechanics": [
+        "Ability Score Increase: +2 Charisma, and +1 to two other ability scores of their choice.",
+        "Size: Medium",
+        "Speed: 30 feet",
+        "Darkvision: Half-elves can see in dim light within 60 feet as if it were bright light.",
+        "Fey Ancestry: They have advantage on saving throws against being charmed and magic can’t put them to sleep.",
+        "Skill Versatility: They gain proficiency in two skills of their choice."
+      ]
+    },
+    {
+      "Category": "Race",
+      "Name": "Half-Orc",
+      "Image": "https://www.dndbeyond.com/avatars/thumbnails/6/466/420/618/636274570630462055.png",
+      "Description": [
+        "Half-orcs inherit the physical might of their orc parents, coupled with a drive and resilience that enables them to endure and thrive.",
+        "They often face prejudice from both orc and human societies, yet their tenacity and strength earn them respect and success in combat and other demanding roles.",
+        "Their rugged appearance and formidable abilities make them natural warriors and adventurers."
+      ],
+      "Mechanics": [
+        "Ability Score Increase: +2 Strength, +1 Constitution.",
+        "Size: Medium",
+        "Speed: 30 feet",
+        "Darkvision: Half-orcs can see in dim light within 60 feet as if it were bright light.",
+        "Menacing: They have proficiency in the Intimidation skill.",
+        "Relentless Endurance: When reduced to 0 hit points but not killed outright, they can drop to 1 hit point instead once per long rest.",
+        "Savage Attacks: When they score a critical hit with a melee weapon attack, they can roll one additional damage die."
+      ]
+    },
+    {
+      "Category": "Race",
+      "Name": "Tiefling",
+      "Image": "https://www.dndbeyond.com/avatars/thumbnails/7/641/420/618/636287076637981942.png",
+      "Description": [
+        "Tieflings are distinguished by their infernal heritage, which manifests in their distinctive appearance and innate magical abilities.",
+        "Their otherworldly traits and charismatic demeanor often lead to misunderstandings and prejudice, yet they use their powers and charm to navigate and overcome these challenges.",
+        "Tieflings possess a strong sense of identity and often seek to prove themselves against the biases of others."
+      ],
+      "Mechanics": [
+        "Ability Score Increase: +2 Charisma, +1 Intelligence.",
+        "Size: Medium",
+        "Speed: 30 feet",
+        "Darkvision: Tieflings can see in dim light within 60 feet as if it were bright light.",
+        "Hellish Resistance: They have resistance to fire damage.",
+        "Infernal Legacy: They know the *Thaumaturgy* cantrip, and can cast *Hellish Rebuke* once per long rest, and *Darkness* once per long rest."
+      ]
+    },
+    {
+      "Category": "Race",
+      "Name": "Dragonborn",
+      "Image": "https://www.dndbeyond.com/avatars/thumbnails/6/340/420/618/636272677995471928.png",
+      "Description": [
+        "Dragonborn are a proud and honorable race with a heritage linked to ancient dragons. They are distinguished by their draconic features, including scales and breath weapon.",
+        "Their society values honor, strength, and lineage, and they often strive to live up to the legacy of their draconic ancestors.",
+        "Dragonborn are known for their valor in battle and their strong sense of personal and familial pride."
+      ],
+      "Mechanics": [
+        "Ability Score Increase: +2 Strength, +1 Charisma.",
+        "Size: Medium",
+        "Speed: 30 feet",
+        "Draconic Ancestry: They have a breath weapon and damage resistance based on their dragon ancestry.",
+        "Breath Weapon: They can exhale a blast of energy that deals damage based on their draconic ancestry.",
+        "Damage Resistance: They have resistance to the damage type associated with their draconic ancestry."
+      ]
+    },
+    {
+      "Category": "Race",
+      "Name": "Aarakocra",
+      "Image": "https://www.dndbeyond.com/avatars/thumbnails/7/622/420/618/636286750209394240.png",
+      "Description": [
+        "Aarakocra are avian humanoids from the Elemental Plane of Air. They have a humanoid form but are covered in feathers and possess large, powerful wings.",
+        "They are known for their ability to fly, which they use to navigate the skies and scout their surroundings. Their culture is heavily influenced by their aerial nature, and they live in high-altitude environments."
+      ],
+      "Mechanics": [
+        "Ability Score Increase: +2 Dexterity, +1 Wisdom",
+        "Size: Medium",
+        "Speed: 30 feet",
+        "Flight: Aarakocra have a flying speed of 50 feet.",
+        "Talons: They have natural talons that deal 1d4 slashing damage.",
+        "Keen Senses: They have proficiency in the Perception skill."
+      ]
+    },
+    {
+      "Category": "Race",
+      "Name": "Goblin",
+      "Image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/races/VGM/Goblin.webp",
+      "Description": [
+        "Goblins are small, cunning creatures that are often seen as mischievous and aggressive. They are known for their quick reflexes and adaptability in various environments.",
+        "Goblins often live in tribes and are skilled in guerrilla tactics. Their societies are typically chaotic, but they are also known for their resourcefulness and cunning in overcoming larger foes."
+      ],
+      "Mechanics": [
+        "Ability Score Increase: +2 Dexterity, +1 Constitution",
+        "Size: Small",
+        "Speed: 30 feet",
+        "Darkvision: They can see in dim light within 60 feet as if it were bright light.",
+        "Nimble Escape: They can take the Disengage or Hide action as a bonus action on each of their turns.",
+        "Fury of the Small: When they hit a creature with an attack and the creature's size is larger than theirs, they can deal extra damage equal to their level."
+      ]
+    },
+    {
+      "Category": "Race",
+      "Name": "Hobgoblin",
+      "Image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/races/VGM/Hobgoblin.webp",
+      "Description": [
+        "Hobgoblins are a disciplined and militaristic subrace of goblinoids, known for their strategic mind and combat prowess. They are larger and more organized compared to their goblin kin.",
+        "They form tightly-knit military units and value discipline and order. Hobgoblins are skilled tacticians and are often found leading goblinoid armies or working as mercenaries."
+      ],
+      "Mechanics": [
+        "Ability Score Increase: +2 Constitution, +1 Intelligence",
+        "Size: Medium",
+        "Speed: 30 feet",
+        "Darkvision: They can see in dim light within 60 feet as if it were bright light.",
+        "Martial Training: They gain proficiency with two martial weapons of their choice.",
+        "Saving Face: When they miss with an attack or fail an ability check or saving throw, they can add a bonus equal to their proficiency bonus to the roll."
+      ]
+    },
+    {
+      "Category": "Race",
+      "Name": "Kobold",
+      "Image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/races/MPMM/Kobold.webp",
+      "Description": [
+        "Kobolds are small, reptilian humanoids known for their cunning and trap-making abilities. They are often found in underground lairs or as servitors to more powerful creatures.",
+        "Kobolds are highly adaptable and are often seen in large numbers, utilizing traps and ambushes to overwhelm their enemies. They are known for their tenacity and the ability to work well in groups."
+      ],
+      "Mechanics": [
+        "Ability Score Increase: +2 Dexterity, +1 Strength",
+        "Size: Small",
+        "Speed: 30 feet",
+        "Darkvision: They can see in dim light within 60 feet as if it were bright light.",
+        "Pack Tactics: They have advantage on an attack roll against a creature if at least one of their allies is within 5 feet of the creature and isn't incapacitated.",
+        "Draconic Cry: They can use their action to emit a frightful cry. Each creature of their choice within 30 feet must make a Wisdom saving throw or be frightened for 1 minute."
+      ]
+    },
+    {
+      "Category": "Race",
+      "Name": "Yuan-ti",
+      "Image": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/races/VGM/Yuan-ti%20Pureblood.webp",
+      "Description": [
+        "Yuan-ti Purebloods are a race of serpent-like humanoids known for their cunning and magical prowess. They are the most human-like of the yuan-ti and possess a blend of serpent and humanoid traits.",
+        "They are known for their ability to charm and deceive others, and they often work in the shadows to further their enigmatic goals. Yuan-ti Purebloods are highly intelligent and skilled in arcane magic."
+      ],
+      "Mechanics": [
+        "Ability Score Increase: +2 Charisma, +1 Intelligence",
+        "Size: Medium",
+        "Speed: 30 feet",
+        "Darkvision: They can see in dim light within 60 feet as if it were bright light.",
+        "Innate Spellcasting: They can cast the spells *charm person* and *snake charm* once per long rest.",
+        "Magic Resistance: They have advantage on saving throws against being charmed or frightened."
+      ]
+    },
+    {
+      "Category": "Class",
+      "Name": "Artificer",
+      "Image": "img/Class/Artificer.png",
+      "Description": [
+        "Artificers are masters of invention, using their knowledge of magic and technology to create wondrous items and devices.",
+        "They blend magic and engineering to craft gadgets, potions, and magical items that aid them and their allies."
+      ],
+      "Mechanics": [
+        "Hit Die: d8",
+        "Primary Ability: Intelligence",
+        "Saves: Intelligence, Constitution",
+        "Infuse Magic: Artificers can imbue mundane items with magical effects.",
+        "Spellcasting: They use Intelligence as their spellcasting ability to cast spells.",
+        "Tool Proficiency: Artificers gain proficiency with a variety of tools and can use them to enhance their creations.",
+        "Artificer Specializations: They can choose from different specializations like Alchemist, Artillerist, and Battle Smith, each providing unique abilities and features."
+      ]
+    },
+    {
+      "Category": "Class",
+      "Name": "Barbarian",
+      "Image": "https://www.dndbeyond.com/avatars/thumbnails/6/342/420/618/636272680339895080.png",
+      "Description": [
+        "Barbarians are fierce warriors with a primal rage that makes them formidable in battle. They channel their anger into powerful attacks, and their sheer tenacity allows them to shrug off injuries that would fell lesser warriors.",
+        "Their rage grants them increased strength and resilience, and they possess the ability to enter a battle frenzy, making them more dangerous in combat. Barbarians are also skilled in surviving in the wilderness, making them excellent scouts and trackers."
+      ],
+      "Mechanics": [
+        "Hit Die: d12",
+        "Primary Ability: Strength",
+        "Saves: Strength, Constitution",
+        "Rage: Barbarians can enter a state of intense fury, gaining bonuses to damage and resistance to certain types of damage.",
+        "Unarmored Defense: While not wearing armor, a Barbarian's Dexterity and Constitution modifiers are added to their Armor Class.",
+        "Primal Path: Barbarians choose a path that defines their rage abilities and grants them additional features, such as the Path of the Berserker or the Path of the Totem Warrior."
+      ]
+    },
+    {
+      "Category": "Class",
+      "Name": "Bard",
+      "Image": "https://www.dndbeyond.com/avatars/thumbnails/6/369/420/618/636272705936709430.png",
+      "Description": [
+        "Bards are charismatic spellcasters who use their performances to inspire allies and manipulate foes. They blend their magical prowess with skills in music, storytelling, and performance to influence the battlefield.",
+        "Bards are versatile in both combat and support roles. They can heal wounds, bolster their allies' abilities, and cast a wide range of spells. Their Bardic Inspiration allows them to provide crucial support to their team, enhancing their abilities and turning the tide of battle."
+      ],
+      "Mechanics": [
+        "Hit Die: d8",
+        "Primary Ability: Charisma",
+        "Saves: Dexterity, Charisma",
+        "Spellcasting: Bards use Charisma as their spellcasting ability and have access to a diverse selection of spells.",
+        "Bardic Inspiration: They can inspire their allies with a touch, granting them bonuses to their ability checks, attack rolls, or saving throws.",
+        "College: Bards join a College that reflects their style of magic and performance, such as the College of Lore or the College of Valor."
+      ]
+    },
+    {
+      "Category": "Class",
+      "Name": "Cleric",
+      "Image": "https://www.dndbeyond.com/avatars/thumbnails/6/371/420/618/636272706155064423.png",
+      "Description": [
+        "Clerics are divine spellcasters who serve deities and channel divine energy to heal, protect, and smite. Their connection to their deity grants them powerful spells and abilities that reflect their divine domain.",
+        "Clerics can turn undead, call upon divine power to heal or harm, and invoke blessings upon their allies. Their divine magic is versatile, capable of both defensive and offensive spells. Clerics choose a divine domain that influences their abilities and spells."
+      ],
+      "Mechanics": [
+        "Hit Die: d8",
+        "Primary Ability: Wisdom",
+        "Saves: Wisdom, Charisma",
+        "Spellcasting: Clerics use Wisdom as their spellcasting ability and can prepare a variety of spells each day.",
+        "Divine Domain: Clerics select a domain related to their deity, which grants them additional spells and abilities, such as the Life Domain or the War Domain.",
+        "Channel Divinity: They can use divine energy to perform powerful effects, such as turning undead or healing allies."
+      ]
+    },
+    {
+      "Category": "Class",
+      "Name": "Druid",
+      "Image": "https://www.dndbeyond.com/avatars/thumbnails/6/346/420/618/636272691461725405.png",
+      "Description": [
+        "Druids are guardians of nature who harness the power of the natural world. They can shapeshift into animals, wield nature-based magic, and commune with the forces of the earth.",
+        "Druids excel in both combat and healing. They can cast spells that control the elements, summon animals, and heal their allies. Their ability to transform into animals provides them with unique combat and utility options."
+      ],
+      "Mechanics": [
+        "Hit Die: d8",
+        "Primary Ability: Wisdom",
+        "Saves: Intelligence, Wisdom",
+        "Wild Shape: Druids can transform into animals, gaining their physical capabilities and abilities.",
+        "Spellcasting: Druids use Wisdom as their spellcasting ability and can prepare spells that manipulate the natural world.",
+        "Druid Circle: They join a Circle that grants them additional features and abilities, such as the Circle of the Moon or the Circle of the Land."
+      ]
+    },
+    {
+      "Category": "Class",
+      "Name": "Fighter",
+      "Image": "https://www.dndbeyond.com/avatars/thumbnails/6/359/420/618/636272697874197438.png",
+      "Description": [
+        "Fighters are versatile warriors skilled in combat and strategy. They are adept with a wide variety of weapons and armor, and their training makes them highly effective in battle.",
+        "Fighters can specialize in different combat styles, making them proficient in melee or ranged combat. They possess abilities that allow them to react to threats and improve their combat effectiveness."
+      ],
+      "Mechanics": [
+        "Hit Die: d10",
+        "Primary Ability: Strength or Dexterity",
+        "Saves: Strength, Constitution",
+        "Fighting Style: Fighters choose a fighting style that enhances their combat abilities, such as Defense or Archery.",
+        "Action Surge: Fighters can push themselves beyond their normal limits, taking an additional action on their turn.",
+        "Martial Archetype: They select an archetype that provides additional abilities and features, such as the Champion or the Battle Master."
+      ]
+    },
+    {
+      "Category": "Class",
+      "Name": "Monk",
+      "Image": "https://www.dndbeyond.com/avatars/thumbnails/6/489/420/618/636274646181411106.png",
+      "Description": [
+        "Monks are masters of martial arts who channel their inner energy, known as ki, to perform extraordinary feats. They combine physical prowess with spiritual discipline to become agile and powerful combatants.",
+        "Monks are skilled in unarmed combat and possess abilities that allow them to move with incredible speed and precision. Their ki grants them access to special techniques that enhance their combat effectiveness and provide unique utility."
+      ],
+      "Mechanics": [
+        "Hit Die: d8",
+        "Primary Ability: Dexterity and Wisdom",
+        "Saves: Strength, Dexterity",
+        "Ki: Monks use ki points to perform special abilities, such as flurries of blows and stunning strikes.",
+        "Martial Arts: They can use Dexterity instead of Strength for attack and damage rolls with unarmed strikes and monk weapons.",
+        "Monastic Tradition: They follow a tradition that grants them additional features and abilities, such as the Way of the Open Hand or the Way of Shadow."
+      ]
+    },
+    {
+      "Category": "Class",
+      "Name": "Paladin",
+      "Image": "https://www.dndbeyond.com/avatars/thumbnails/6/365/420/618/636272701937419552.png",
+      "Description": [
+        "Paladins are holy warriors who swear oaths to uphold justice and righteousness. They wield divine power to smite evil and protect the innocent, combining martial prowess with divine magic.",
+        "Paladins have access to powerful spells and abilities that allow them to heal, protect their allies, and deal radiant damage to their foes. Their oaths define their path and grant them unique abilities and spells."
+      ],
+      "Mechanics": [
+        "Hit Die: d10",
+        "Primary Ability: Strength and Charisma",
+        "Saves: Wisdom, Charisma",
+        "Divine Smite: Paladins can expend spell slots to deal extra radiant damage on their melee attacks.",
+        "Lay on Hands: They can heal wounds by channeling divine energy.",
+        "Sacred Oath: They swear an oath that grants them additional abilities and spells, such as the Oath of Devotion or the Oath of Vengeance."
+      ]
+    },
+    {
+      "Category": "Class",
+      "Name": "Ranger",
+      "Image": "https://www.dndbeyond.com/avatars/thumbnails/6/367/420/618/636272702826438096.png",
+      "Description": [
+        "Rangers are skilled hunters and trackers who excel in surviving the wilderness. They are adept at both ranged and melee combat, using their knowledge of nature to gain advantages in the wild.",
+        "Rangers have access to spells that allow them to enhance their tracking abilities, summon animal companions, and manipulate the environment to their advantage. Their combat prowess and survival skills make them effective adventurers in a variety of settings."
+      ],
+      "Mechanics": [
+        "Hit Die: d10",
+        "Primary Ability: Dexterity and Wisdom",
+        "Saves: Strength, Dexterity",
+        "Favored Enemy: Rangers gain advantages in tracking and combating specific types of creatures.",
+        "Natural Explorer: They are adept at navigating and surviving in their favored terrains.",
+        "Ranger Archetype: They select an archetype that grants them additional features and abilities, such as the Hunter or the Beast Master."
+      ]
+    },
+    {
+      "Category": "Class",
+      "Name": "Rogue",
+      "Image": "https://www.dndbeyond.com/avatars/thumbnails/6/384/420/618/636272820319276620.png",
+      "Description": [
+        "Rogues are experts in stealth, trickery, and infiltration. They use their skills to outwit enemies, disarm traps, and perform precision strikes.",
+        "Rogues are adept at sneaking into places where they shouldn’t be, gathering information, and using their skills to their advantage in combat. Their sneak attacks and cunning make them effective in both combat and subterfuge."
+      ],
+      "Mechanics": [
+        "Hit Die: d8",
+        "Primary Ability: Dexterity",
+        "Saves: Dexterity, Intelligence",
+        "Sneak Attack: Rogues deal extra damage when they have advantage on an attack or when an ally is within 5 feet of their target.",
+        "Cunning Action: They can use their bonus action to Dash, Disengage, or Hide.",
+        "Roguish Archetype: They choose an archetype that provides additional features and abilities, such as the Thief or the Assassin."
+      ]
+    },
+    {
+      "Category": "Class",
+      "Name": "Sorcerer",
+      "Image": "https://www.dndbeyond.com/avatars/thumbnails/6/485/420/618/636274643818663058.png",
+      "Description": [
+        "Sorcerers are spellcasters who draw on innate magic, often tied to their bloodline or heritage. Their magic is inherent and often manifests in powerful, unpredictable ways.",
+        "Sorcerers have a unique spellcasting ability that allows them to shape spells and manipulate magical effects. They possess sorcery points that they can use to enhance their spells or cast them in unique ways."
+      ],
+      "Mechanics": [
+        "Hit Die: d6",
+        "Primary Ability: Charisma",
+        "Saves: Constitution, Charisma",
+        "Sorcery Points: Sorcerers use sorcery points to alter their spells or gain additional spell slots.",
+        "Metamagic: They can apply special effects to their spells, such as extending their range or increasing their power.",
+        "Sorcerous Origin: They select an origin that reflects their magical heritage, such as the Draconic Bloodline or the Wild Magic."
+      ]
+    },
+    {
+      "Category": "Class",
+      "Name": "Warlock",
+      "Image": "https://www.dndbeyond.com/avatars/thumbnails/6/375/420/618/636272708661726603.png",
+      "Description": [
+        "Warlocks are spellcasters who gain their magic through a pact with a powerful extraplanar entity. Their spells and abilities are shaped by their patron, granting them unique powers and knowledge.",
+        "Warlocks are versatile in their spellcasting, using their pact magic to summon eldritch forces and perform dark rituals. Their unique invocations allow them to customize their abilities and gain powers that reflect their patron's nature."
+      ],
+      "Mechanics": [
+        "Hit Die: d8",
+        "Primary Ability: Charisma",
+        "Saves: Wisdom, Charisma",
+        "Pact Magic: Warlocks use Charisma as their spellcasting ability and have a limited number of spell slots that recharge on a short rest.",
+        "Eldritch Invocations: They can choose from various invocations that grant them special abilities or enhance their spells.",
+        "Otherworldly Patron: They form a pact with a patron that provides them with unique abilities and spells, such as the Fiend or the Great Old One."
+      ]
+    },
+    {
+      "Category": "Class",
+      "Name": "Wizard",
+      "Image": "https://www.dndbeyond.com/avatars/thumbnails/6/357/420/618/636272696881281556.png",
+      "Description": [
+        "Wizards are arcane spellcasters who gain their power through rigorous study and mastery of magic. They learn spells from ancient tomes and scrolls, and their knowledge allows them to cast a wide variety of spells.",
+        "Wizards are highly versatile spellcasters, capable of adapting their spellcasting to meet any challenge. Their spellbook contains the vast array of spells they can prepare, and they have the ability to learn new spells through research and experimentation."
+      ],
+      "Mechanics": [
+        "Hit Die: d6",
+        "Primary Ability: Intelligence",
+        "Saves: Intelligence, Wisdom",
+        "Spellcasting: Wizards use Intelligence as their spellcasting ability and have access to a broad selection of spells.",
+        "Arcane Tradition: They choose a school of magic that provides them with additional features and spells, such as the School of Evocation or the School of Illusion.",
+        "Ritual Casting: Wizards can cast certain spells as rituals, allowing them to perform magic without expending a spell slot."
+      ]
+    },
+    {
+      "Category": "Background",
+      "Name": "Acolyte",
+      "Image": "https://bg3.wiki/w/images/2/2f/Background_Acolyte_Icon.png",
+      "Description": [
+        "Charlatans are experts in deception, con artistry, and trickery. They thrive on deceit and are skilled at manipulating others for personal gain.",
+        "Whether it's a flimsy scam or an elaborate confidence trick, charlatans use their wits and charm to navigate through society, leaving their marks none the wiser."
+      ],
+      "Mechanics": [
+        "Skill Proficiencies: Deception, Sleight of Hand",
+        "Languages: Two of your choice, often including languages useful for deceiving others.",
+        "Equipment: A set of fine clothes, a disguise kit, tools of your trade, and a pouch containing 15 gp.",
+        "Feature: False Identity - You have created a second identity for yourself, complete with documentation and social connections. This false identity can be used to gain access to places and people."
+      ]
+    },
+    {
+      "Category": "Background",
+      "Name": "Charlatan",
+      "Image": "https://bg3.wiki/w/images/2/29/Background_Charlatan_Icon.png",
+      "Description": [
+        "Charlatans are masters of deception and trickery, living a life of fraud and manipulation. They excel in convincing others of falsehoods, using their charm and wit to exploit their targets.",
+        "Their lives are a series of elaborate cons and schemes, often involving false identities and intricate plots. They thrive in the art of the con, where their skill at disguise and misdirection makes them formidable deceivers."
+      ],
+      "Mechanics": [
+        "Skill Proficiencies: Deception, Sleight of Hand",
+        "Languages: Two of your choice, often including those relevant to your schemes and deceptions.",
+        "Equipment: A set of fine clothes, a disguise kit, tools of your trade, and a pouch containing 15 gp.",
+        "Feature: False Identity - You have created a second persona complete with documentation and social connections. This false identity can be used to access various social circles and resources, making it easier to deceive and manipulate others."
+      ]
+    },
+    {
+      "Category": "Background",
+      "Name": "Criminal",
+      "Image": "https://bg3.wiki/w/images/6/68/Background_Criminal_Icon.png",
+      "Description": [
+        "Criminals are individuals who have lived a life of crime, whether as thieves, enforcers, or hustlers. Their past life has provided them with a deep understanding of the criminal underworld and the skills necessary to operate within it.",
+        "They are adept at navigating illicit networks, performing heists, and dealing with the shadows of society. Criminals often have connections with other nefarious individuals and organizations."
+      ],
+      "Mechanics": [
+        "Skill Proficiencies: Deception, Stealth",
+        "Languages: Two of your choice, often including those used by criminal elements.",
+        "Equipment: A set of dark clothes, a crowbar, a set of thieves' tools, and a pouch containing 15 gp.",
+        "Feature: Criminal Contact - You have a reliable and trustworthy contact in the criminal underworld who can provide information or assistance in criminal matters."
+      ]
+    },
+    {
+      "Category": "Background",
+      "Name": "Entertainer",
+      "Image": "https://bg3.wiki/w/images/c/c2/Background_Entertainer_Icon.png",
+      "Description": [
+        "Entertainers are performers and showmen who thrive in the spotlight. They use their talents to captivate audiences, whether through music, dance, acting, or other forms of entertainment.",
+        "They are often charismatic and skilled at drawing people in, using their performances to make a living or to influence and charm those around them."
+      ],
+      "Mechanics": [
+        "Skill Proficiencies: Acrobatics, Performance",
+        "Languages: Two of your choice, often including those spoken in the regions where you perform.",
+        "Equipment: A musical instrument or a disguise kit, a set of fine clothes, and a pouch containing 15 gp.",
+        "Feature: By Popular Demand - You can find a place to stay and perform in most cities or towns. People will remember your performances, and you can use this to gain access to social circles."
+      ]
+    },
+    {
+      "Category": "Background",
+      "Name": "Folk Hero",
+      "Image": "https://bg3.wiki/w/images/e/ec/Background_Folk_Hero_Icon.png",
+      "Description": [
+        "Folk Heroes are champions of the common people, often emerging from humble beginnings to stand against oppression and injustice. They are celebrated for their deeds and bravery.",
+        "Their rise to fame typically involves a personal connection with the people they protect, and they are often seen as symbols of hope and resistance."
+      ],
+      "Mechanics": [
+        "Skill Proficiencies: Animal Handling, Survival",
+        "Languages: One of your choice, typically the local dialect or language of the people you have protected.",
+        "Equipment: A set of artisan’s tools, a shovel, a set of common clothes, and a pouch containing 10 gp.",
+        "Feature: Rustic Hospitality - You are welcome in small villages and towns where people recognize you as a hero. You can find shelter and food among those who admire your deeds."
+      ]
+    },
+    {
+      "Category": "Background",
+      "Name": "Guild Artisan",
+      "Image": "https://bg3.wiki/w/images/3/3d/Background_Guild_Artisan_Icon.png",
+      "Description": [
+        "Guild Artisans are skilled craftsmen and tradespeople who have devoted their lives to perfecting their craft. They belong to a guild that supports their work and provides a network of professional contacts.",
+        "Their expertise is often sought after, and their guild membership grants them access to resources, trade secrets, and a reputation for high-quality work. Guild Artisans are well-respected in their fields and are often involved in intricate and valuable work."
+      ],
+      "Mechanics": [
+        "Skill Proficiencies: Insight, Persuasion",
+        "Languages: Two of your choice, often including those relevant to your trade and guild.",
+        "Equipment: A set of artisan’s tools, a guild badge, a set of fine clothes, and a pouch containing 15 gp.",
+        "Feature: Guild Membership - As a member of a guild, you have access to a network of fellow artisans who can provide assistance, resources, and professional support. You are also recognized and respected within your craft's community."
+      ]
+    },
+    {
+      "Category": "Background",
+      "Name": "Haunted One",
+      "Image": "https://bg3.wiki/w/images/8/8c/Background_Haunted_One_Icon.png",
+      "Description": [
+        "The Haunted One is a background for those who have witnessed something so horrific that it has scarred them for life.",
+        "These individuals are marked by their traumatic pasts, which often drives them to seek redemption, vengeance, or answers.",
+        "The experiences they have endured leave them with a haunting presence that can unsettle those around them. Despite their trauma, Haunted Ones possess a deep resilience and determination."
+      ],
+      "Mechanics": [
+        "Skill Proficiencies: Choose two from Arcana, Investigation, Religion, and Survival.",
+        "Languages: One language of your choice.",
+        "Tool Proficiency: None.",
+        "Equipment: A dark, tattered cloak; a memento from your past (a token, letter, or piece of jewelry); a set of common clothes; and a belt pouch containing 10 gp.",
+        "Feature: Heart of Darkness - Those who look upon you are not easily surprised when you show your darker side. You have advantage on Charisma (Intimidation) checks when interacting with creatures who are already frightened or unnerved by you.",
+        "Haunted Trait: You carry a deep and unsettling fear or sorrow, which manifests in your interactions with others. You may have difficulty trusting others or be haunted by the ghosts of your past.",
+        "Suggested Characteristics: Haunted Ones are often driven by a deep sense of purpose or a quest for understanding. They might be motivated by vengeance, redemption, or the search for truth."
+      ]
+    },
+    {
+      "Category": "Background",
+      "Name": "Hermit",
+      "Image": "https://bg3.wiki/w/images/0/08/Background_Hermit_Icon.png",
+      "Description": [
+        "Hermits are individuals who have chosen to live in solitude, away from the bustle of society. Their time in isolation is often spent in deep contemplation, study, or spiritual practice.",
+        "Their retreat from the world allows them to gain profound insights and understanding, which they can use to offer wisdom and guidance. Despite their isolation, they maintain a deep connection to the world and its mysteries."
+      ],
+      "Mechanics": [
+        "Skill Proficiencies: Medicine, Religion",
+        "Languages: One of your choice, often including ancient or obscure languages studied during your isolation.",
+        "Equipment: A scroll case stuffed with notes, a winter blanket, a set of common clothes, and a pouch containing 5 gp.",
+        "Feature: Discovery - You have made a significant discovery during your time of isolation, which could be a hidden truth, a new philosophy, or a long-lost relic. This discovery often leads you to further quests or insights."
+      ]
+    },
+    {
+      "Category": "Background",
+      "Name": "Noble",
+      "Image": "https://bg3.wiki/w/images/b/b7/Background_Noble_Icon.png",
+      "Description": [
+        "Nobles are individuals born into wealth and high social status. They are accustomed to a life of luxury and privilege, and their status provides them with influence and power.",
+        "Their upbringing has given them a deep understanding of politics, etiquette, and the art of negotiation. Nobles often find themselves involved in matters of state, diplomacy, and high society."
+      ],
+      "Mechanics": [
+        "Skill Proficiencies: History, Persuasion",
+        "Languages: Two of your choice, often including those spoken in noble circles or regions of influence.",
+        "Equipment: A set of fine clothes, a signet ring, a scroll of pedigree, and a pouch containing 25 gp.",
+        "Feature: Position of Privilege - You are treated with respect and deference by those of lower social standing. Your noble status provides you with access to influential contacts and resources, and you can often leverage your social connections to achieve your goals."
+      ]
+    },
+    {
+      "Category": "Background",
+      "Name": "Outlander",
+      "Image": "https://bg3.wiki/w/images/b/bf/Background_Outlander_Icon.png",
+      "Description": [
+        "Outlanders are rugged survivors who have spent much of their lives in the wilderness, away from the comforts of civilization. They are skilled in navigating and thriving in harsh environments.",
+        "Their deep connection with nature and their survival skills make them excellent guides and scouts."
+      ],
+      "Mechanics": [
+        "Skill Proficiencies: Athletics, Survival",
+        "Languages: One of your choice, often including the languages of the regions you have explored.",
+        "Equipment: A staff, a hunting trap, a trophy from an animal you killed, a set of traveler's clothes, and a pouch containing 10 gp.",
+        "Feature: Wanderer - You have an excellent memory for maps and geography, and can find food and fresh water for yourself and up to five others."
+      ]
+    },
+    {
+      "Category": "Background",
+      "Name": "Sage",
+      "Image": "https://bg3.wiki/w/images/2/2e/Background_Sage_Icon.png",
+      "Description": [
+        "Sages are scholars and seekers of knowledge who dedicate their lives to studying the world and uncovering its mysteries. They have a deep well of knowledge on various subjects and are often found in libraries or academic institutions.",
+        "Their pursuit of knowledge drives them to explore ancient ruins, consult with other scholars, and uncover long-forgotten secrets."
+      ],
+      "Mechanics": [
+        "Skill Proficiencies: Arcana, History",
+        "Languages: Two of your choice, often including ancient or esoteric languages.",
+        "Equipment: A bottle of black ink, a quill, a small knife, a set of common clothes, and a pouch containing 10 gp.",
+        "Feature: Researcher - You can find most information through research, be it in libraries, archives, or other scholarly resources."
+      ]
+    },
+    {
+      "Category": "Background",
+      "Name": "Sailor",
+      "Image": "https://bg3.wiki/w/images/0/02/Background_Sailor_Icon.png",
+      "Description": [
+        "Sailors are seasoned mariners who have spent much of their lives navigating the seas. Their experiences aboard ships have equipped them with skills for surviving in maritime environments and dealing with the challenges of life at sea.",
+        "They are adept at managing a ship, handling a variety of sea-related tasks, and surviving the dangers of the ocean. Sailors are also familiar with the diverse cultures and peoples they encounter during their voyages."
+      ],
+      "Mechanics": [
+        "Skill Proficiencies: Athletics, Perception",
+        "Languages: One of your choice, often including maritime languages or dialects of the regions you have sailed to.",
+        "Equipment: A set of common clothes, a belaying pin (club), a lucky charm from your travels, and a pouch containing 10 gp.",
+        "Feature: Ship’s Passage - You can secure passage on a ship for yourself and your companions. Your familiarity with the maritime world and your network of sailors can also help you in navigating sea-related challenges and gaining favor with ship captains."
+      ]
+    },
+    {
+      "Category": "Background",
+      "Name": "Soldier",
+      "Image": "https://bg3.wiki/w/images/b/ba/Background_Soldier_Icon.png",
+      "Description": [
+        "Soldiers are experienced combatants who have served in military forces. They have extensive training in battle tactics and have often seen the horrors and discipline of war.",
+        "Their background provides them with a strong sense of duty, tactical knowledge, and experience in leading and following in combat."
+      ],
+      "Mechanics": [
+        "Skill Proficiencies: Athletics, Intimidation",
+        "Languages: One of your choice, often including military jargon or languages used in your service.",
+        "Equipment: A uniform or insignia from your service, a weapon of your choice, a set of common clothes, and a pouch containing 10 gp.",
+        "Feature: Military Rank - You have a rank and command structure you are a part of. You can use this rank to gain access to military facilities and resources."
+      ]
+    },
+    {
+      "Category": "Background",
+      "Name": "Urchin",
+      "Image": "https://bg3.wiki/w/images/3/39/Background_Urchin_Icon.png",
+      "Description": [
+        "Urchins are street-smart survivors who have lived on the fringes of society. They have learned to fend for themselves and navigate the dangers of urban environments.",
+        "Their experiences have made them resourceful and agile, often developing a keen sense of how to survive in the harshest conditions."
+      ],
+      "Mechanics": [
+        "Skill Proficiencies: Sleight of Hand, Stealth",
+        "Languages: One of your choice, often including the street dialects or languages used in the urban environment you grew up in.",
+        "Equipment: A small knife, a map of the city where you grew up, a pet mouse, and a pouch containing 10 gp.",
+        "Feature: City Secrets - You can navigate urban environments with ease and find hidden places or shortcuts. You know the back alleys and safe houses of your home city."
+      ]
+    }
+  ]
+}

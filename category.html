@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D&D Information</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="https://www.dndbeyond.com/store/_next/static/media/monthly-perks.c8240c9d.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .card {
+            margin-bottom: 1rem;
+            background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for the card */
+            color: #ffffff; /* White text color for readability */
+            text-align: center; /* Center text horizontally */
+            overflow: hidden; /* Ensure content stays within card bounds */
+            text-decoration: none; /* Remove default link underline */
+        }
+
+        .card-img {
+            width: 100%; /* Ensure image takes full width of card */
+            height: auto; /* Maintain aspect ratio of image */
+        }
+
+        .card-body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column; /* Center content vertically */
+            height: 100%; /* Make card body fill the card */
+        }
+
+        .container {
+            margin-top: 50px;
+        }
+
+        .card-title {
+            font-size: 2.25rem; /* Adjust the font size as needed */
+            font-family: 'Tilt Prism', sans-serif; /* Apply the Tilt Prism font */
+        }
+
+        .card-link {
+            color: #ffffff; /* Ensure the link text color is white */
+        }
+
+        .card:hover {
+            background: rgba(0, 0, 0, 0.7); /* Darken the card on hover */
+            text-decoration: none; /* Ensure no underline on hover */
+        }
+
+        /* Style for the navigation buttons */
+        .nav-buttons {
+            position: fixed;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            gap: 10px;
+        }
+    </style>
+</head>
+<body style="background-image: url('https://www.dndbeyond.com/store/_next/static/media/atf-bg.22847dc6.jpg'); background-size: cover; background-position: center top;">
+    <div class="container">
+        <h1 class="text-center text-white mt-5" id="category-title" style="font-family: Tilt Prism;"></h1>
+        <div id="entries-list" class="row mt-5"></div>
+    </div>
+    <div class="nav-buttons">
+        <a href="index.html" class="btn btn-outline-danger"><i class="fa-solid fa-house"></i></a>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/6867576856.js" crossorigin="anonymous"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const params = new URLSearchParams(window.location.search);
+            const category = params.get('category');
+            document.getElementById('category-title').innerText = category + 's';
+
+            fetch('dnd_data.json')
+                .then(response => response.json())
+                .then(data => {
+                    const entries = data.entries.filter(entry => entry.Category === category);
+                    const entriesList = document.getElementById('entries-list');
+                    entries.forEach(entry => {
+                        const col = document.createElement('div');
+                        col.className = 'col-md-3'; // Adjust column width as needed
+
+                        const card = document.createElement('a');
+                        card.className = 'card'; // Use text-bg-dark for dark background cards
+                        card.href = `entry.html?category=${category}&name=${encodeURIComponent(entry.Name)}`; // Set the link to the entry
+                        card.style.textDecoration = 'none'; // Remove default underline
+
+                        const cardImage = document.createElement('img');
+                        cardImage.className = 'card-img';
+                        cardImage.src = `img/${category}/${entry.Name}.png`; // Set the image source
+                        cardImage.alt = entry.Name;
+
+                        const cardBody = document.createElement('div');
+                        cardBody.className = 'card-body';
+
+                        const cardTitle = document.createElement('h5');
+                        cardTitle.className = 'card-title';
+                        cardTitle.innerText = entry.Name;
+
+                        cardBody.appendChild(cardTitle);
+                        card.appendChild(cardImage);
+                        card.appendChild(cardBody);
+                        col.appendChild(card);
+                        entriesList.appendChild(col);
+                    });
+                });
+        });
+    </script>
+</body>
+</html>
